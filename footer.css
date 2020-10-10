@@ -1,0 +1,262 @@
+* {
+  box-sizing: border-box;
+}
+
+#footer.dark {
+  background: white;
+  margin-top: 50px;
+  }
+#footer.dark .main-footer {
+  background: #f7f7f7;
+  padding: 20px 0;
+}
+.container {
+  width: 1000px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-right: auto;
+  margin-left: auto;
+  
+}
+
+.row {
+  margin-right: -15px;
+  margin-left: -15px;
+  display: inline-flex;
+  box-sizing: border-box;
+}
+
+.foot-col-1,
+.foot-col-2,
+.foot-col-3,
+.foot-col-4,
+.foot-col-5,
+.foot-col-6,
+.col-mid-1,
+.col-mid-2,
+.col-mid-3,
+.col-mid-4 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+
+footer.dark h5 {
+  letter-spacing: 2px;
+  margin: 0 0 20px 0;
+  color: #d32620;
+  font-size: 20px;
+  display: flex;
+}
+.h5 {
+  font-weight: 400;
+  line-height: 1;
+}
+#footer .footer-list {
+  padding: 0;
+  margin: 0;
+  margin-bottom: 0px;
+  list-style: none;
+}
+.footer-list {
+  margin-bottom: 20px !important;
+}
+ul li {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+#footer .footer-list li a {
+  line-height: 30px;
+  color: #000;
+  display: block;
+  font-size: 16px;
+  text-decoration: none !important;
+  background-color: transparent;
+}
+.bar {
+  background-color: transparent;
+  width: auto;
+  margin: 0;
+  padding: 15px 0;
+  font-size: 18px;
+  list-style: none;
+  border-radius: 5px;
+}
+.bar li {
+  letter-spacing: 1px;
+  display: inline-block;
+}
+.bar li a {
+  color: rgba(13, 99, 133, 0.795);
+  text-decoration: none !important;
+  background-color: transparent;
+}
+.middlebar {
+  padding: 0 !important;
+}
+.bar > .active {
+  color: grey;
+}
+#main-body {
+  margin: 0;
+}
+.middle-section {
+  margin-top: 150px !important;
+  background: #f6f6f6;
+}
+body > section {
+  padding: 20px 10px;
+  display: block;
+}
+img.new-img-g {
+  margin-top: 152px;
+  text-align: center;
+  margin: 0;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border: 0;
+}
+img.new-img-g + .brand {
+  margin: 0;
+}
+.brand {
+  padding: 20px 100px;
+  text-align: left;
+  background: url(../images/red-patterns.jpg);
+  display: block;
+  
+}
+ul.brand-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+ul.brand-list li {
+  width: 300%;
+  display: block;
+  padding: 0;
+}
+ul li {
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+ul.brand-list li a {
+  display: block;
+  color: #fff;
+  line-height: 35px;
+  font-size: 18px;
+  text-decoration: none !important;
+  background-color: transparent;
+}
+.logos {
+  margin-top: 0px;
+  margin-bottom: 20px;
+  height: auto;
+  line-height: normal;
+  padding: 15px;
+  background: #fff;
+}
+.logos .new-img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border: 0;
+}
+p {
+  color: black;
+  margin: 0 0 10px;
+}
+.visit {
+  text-align: left;
+  margin: 15px 0 0;
+}
+ul.visit-link li a {
+  padding: 0;
+  list-style: none;
+  background: #bc2824;
+  color: white;
+  padding: 5px 15px;
+  text-decoration: none !important;
+}
+ol,
+ul {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+#footer.dark .end-footer {
+  background: red;
+  padding: 10px 0;
+  width: 100%;
+  font-weight: normal;
+  display:block;
+}
+#footer.dark .end-footer p.left,
+#footer.dark .end-footer p.right {
+  text-align: center;
+}
+#footer.dark .end-footer p.left {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-align: left;
+  font-size: 16px;
+}
+#footer.dark .end-footer p.right {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-align: right;
+  font-size: 16px;
+}
+#footer.dark .end-footer a {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  text-align: right;
+  font-size: 16px;
+  text-decoration: none !important;
+  background-color: transparent;
+}
+.page-heading{
+  padding: 50px 0 0;
+  position: relative;
+background-color: #F5F5F5;
+
+}
+.page-heading .container{
+  padding: 0;
+}
+.page-heading > .heading-ajio{
+background: url(../images/front-banner.jpg) no-repeat top center;
+    background-repeat: no-repeat;
+    background-size: auto;
+background-size: cover;
+position: relative;
+height: 300px;
+}
+.page-heading .heading-ajio::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 40%;
+    height: 60px;
+    background: #FFF;
+    bottom: 0;
+}
+.page-heading .lead h2{
+  position: absolute;
+font-size: 20px;
+margin: 280px 0;
+float: left;
+color: rgba(11, 11, 104, 0.842);
+    letter-spacing: 2px;
+    font-weight: 2000px;
+    
+}
+
+
+
